@@ -3,7 +3,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 		// update store to reflect what we want to use from the backend
 		store: {
-			api: "https://3001-carlostbank-reactflaskh-hyb29h1fwaz.ws-us81.gitpod.io",
+			api: "https://3000-jexuma21-jwtdemo-crougushfes.ws-us83.gitpod.io",
 			isAuthenticated: false,
 			vehicles: []
 		},

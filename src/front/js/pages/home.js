@@ -14,8 +14,12 @@ export const Home = () => {
 				</h1>
 			</div>
 			<div className="buttons">
-				<Link to={"/signup"}><button>Sign Up</button></Link>
-				<button>Login</button> 
+				<Link to={"/signup"}>
+					<button>Sign Up</button>
+				</Link>
+				<Link to={'/login'}>
+					<button>Log In</button>
+				</Link>
 			</div>
 		</div>
 	);
